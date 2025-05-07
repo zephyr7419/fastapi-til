@@ -1,0 +1,478 @@
+PUT http://localhost:8000/users/01JT7KCGDV7XF4RSRP6HGAV0YS
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFKVE1IS1Y0SE1ERE43N1hTWUdGNTJZTU0iLCJyb2xlIjoiVVNFUiIsImV4cCI6MTc0NjYyNDk4Mn0.P1a5p9Uu-Qjv_naZbPLgwn0f9qRbH8P7wVy4T4wFGNI
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name" : "test2",
+  "password": "test1212!"
+}
+
+<> 2025-05-07T163853.200.json
+
+###
+
+PUT http://localhost:8000/users/01JT7KCGDV7XF4RSRP6HGAV0YS
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFKVE1IS1Y0SE1ERE43N1hTWUdGNTJZTU0iLCJyb2xlIjoiVVNFUiIsImV4cCI6MTc0NjYyNDk4Mn0.P1a5p9Uu-Qjv_naZbPLgwn0f9qRbH8P7wVy4T4wFGNI
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name" : "test2",
+  "password": "test1212!"
+}
+
+<> 2025-05-07T163639.500.txt
+
+###
+
+POST http://localhost:8000/users/login
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 46
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+username=test2%40email.com&password=test123%21
+
+<> 2025-05-07T163622.200.json
+
+###
+
+PUT http://localhost:8000/users/01JT7KCGDV7XF4RSRP6HGAV0YS
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFKVE1IS1Y0SE1ERE43N1hTWUdGNTJZTU0iLCJleHAiOjE3NDY2MjM1NTd9.ZQqJNWbFC2nfiMsLDt7n1iiIKjy_Lj8A-7elMsS1ZYY
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name" : "test2",
+  "password": "test1212!"
+}
+
+<> 2025-05-07T163557.403.json
+
+###
+
+POST http://localhost:8000/users/login
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 46
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+username=test2%40email.com&password=test123%21
+
+<> 2025-05-07T161237.200.json
+
+###
+
+GET http://localhost:8000/users?page=1&items_per_page=3
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-07T142709.200.json
+
+###
+
+GET http://localhost:8000/users?page=1&items_per_page=3
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-07T142255.500.txt
+
+###
+
+GET http://localhost:8000/users?page=1&items_per_page=3
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-07T142217.500.txt
+
+###
+
+GET http://localhost:8000/users?page=1&items_per_page=3
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-07T142155.500.txt
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+Content-Length: 67
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test2",
+  "email": "test2",
+  "password": "test123!"
+}
+
+<> 2025-05-07T141644.400.json
+
+###
+
+GET http://localhost:8000/users?page=1&items_per_page=3
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-07T135613.200.json
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+Content-Length: 77
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test2",
+  "email": "test2@email.com",
+  "password": "test123!"
+}
+
+<> 2025-05-07T135610.201.json
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+Content-Length: 77
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test1",
+  "email": "test1@email.com",
+  "password": "test123!"
+}
+
+<> 2025-05-07T135606.201.json
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test@email.com",
+  "password": "test123!"
+}
+
+<> 2025-05-07T135556.201.json
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test@email.com",
+  "password": "test123!"
+}
+
+<> 2025-05-07T135323.500.txt
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test@email.com",
+  "password": "test123!"
+}
+
+<> 2025-05-07T134040.500.txt
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test@email.com",
+  "password": "test123!"
+}
+
+<> 2025-05-07T133734.500.txt
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test@email.com",
+  "password": "test123!"
+}
+
+<> 2025-05-07T133623.500.txt
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test@email.com",
+  "password": "test123!"
+}
+
+<> 2025-05-07T133618.500.txt
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test@email.com",
+  "password": "test123!"
+}
+
+<> 2025-05-07T133556.500.txt
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test@email.com",
+  "password": "test123!"
+}
+
+<> 2025-05-07T133534.500.txt
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test@email.com",
+  "password": "test123!"
+}
+
+<> 2025-05-07T133506.500.txt
+
+###
+
+GET http://localhost:8000/users?page=1&items_per_page=3
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-07T133450.500.txt
+
+###
+
+DELETE http://localhost:8000/users?user_id=01JT7KCGDV7XF4RSRP6HGAV0YS
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8000/users?page=1&items_per_page=3
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-07T115528.500.txt
+
+###
+
+GET http://localhost:8000/users
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-07T115501.500.txt
+
+###
+
+PUT http://localhost:8000/users/01JT7KCGDV7XF4RSRP6HGAV0YS
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name" : "test2",
+  "password": "test1212!"
+}
+
+<> 2025-05-07T105922.200.json
+
+###
+
+PUT http://localhost:8000/users/01JT7KCGDV7XF4RSRP6HGAV0YS
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name" : "test2",
+  "password": "test1212!"
+}
+
+<> 2025-05-07T105633.500.txt
+
+###
+
+PUT http://localhost:8000/users/01JT7KCGDV7XF4RSRP6HGAV0YS
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name" : "test2",
+  "password": "test1212!"
+}
+
+<> 2025-05-07T104707.500.txt
+
+###
+
+GET http://localhost:8000/users/test@email.com
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-02T132325.200.json
+
+###
+
+GET http://localhost:8000/users/test@email.com
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-02T132208.404.json
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test@email.com",
+  "password": "test123!"
+}
+
+<> 2025-05-02T131700.201.json
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test@email.com",
+  "password": "test123!"
+}
+
+<> 2025-05-02T130853.500.txt
+
+###
+
+POST http://localhost:8000/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "test",
+  "email": "test@email.com",
+  "password": "test123!"
+}
+
+<> 2025-05-02T130849.500.txt
+
+###
+
